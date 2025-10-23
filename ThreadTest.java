@@ -10,7 +10,7 @@ class Worker extends Thread {
 
 public class ThreadTest {
     public static void main(String[] args) throws InterruptedException {
-        int N = 100000;
+        int N = 9000;
         Worker[] workers = new Worker[N];
 
         long start = System.currentTimeMillis();

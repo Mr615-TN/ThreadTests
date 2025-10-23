@@ -5,7 +5,7 @@ function threadFunction() {
 }
 
 async function main() {
-    const N = 100000;
+    const N = 9000;
     const start = Date.now();
 
     const promises = [];

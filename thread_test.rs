@@ -2,7 +2,7 @@ use std::thread;
 use std::time::{Duration, Instant};
 
 fn main() {
-    let n = 100000;
+    let n = 9000;
     let start = Instant::now();
 
     let mut handles = vec![];

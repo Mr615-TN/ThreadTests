@@ -8,7 +8,7 @@ void thread_function(int) {
 }
 
 int main() {
-    const int N = 100000;
+    const int N = 9000;
     std::vector<std::thread> threads;
 
     auto start = std::chrono::high_resolution_clock::now();

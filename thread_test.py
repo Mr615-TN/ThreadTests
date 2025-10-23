@@ -14,7 +14,7 @@ def thread_function(name):
     time.sleep(2)
 
 start = time.perf_counter()
-concurrent_threads(thread_function, [(i,) for i in range(100000)])
+concurrent_threads(thread_function, [(i,) for i in range(9000)])
 end = time.perf_counter()
 
 print(f"Python: Took {end - start:.2f} seconds")

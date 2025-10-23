@@ -9,7 +9,7 @@ void* thread_function(void* arg) {
 }
 
 int main() {
-    const int N = 100000;
+    const int N = 9000;
     pthread_t threads[N];
     struct timespec start, end;
 
